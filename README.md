@@ -5,6 +5,10 @@ Cd - change directory , is used to navigate to another folder from your PC. CD l
 
 Pwd - print working directory , shows the current working directory. It prints the path of the working directory, starting from the root.
 
+Mkdir - make directory , allows you to make a new directory. This command can create multiple directories at once.
+
+Rm - remove (files) - rf , is used to remove objects such as files, directories, symbolic links and so on from the file system. You should be very careful while running rm command because once you delete the files then you are not able to recover the contents of files and directories.
+
 ``cp [file] [destination]`` - copies file to another destination
 
 __Example:__ ``cp file1 folder2`` will copy "file1" to directory named folder2

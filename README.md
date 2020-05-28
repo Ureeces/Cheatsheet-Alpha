@@ -33,3 +33,22 @@ Special characters:
 * ``ls -1`` - puts the list in a single column
 
 **You can combine these characters, for example: ``ls -a1 folder2`` will list ALL files and directories in the directory folder2 in a single column
+
+---
+
+``mv [file] [destination]/`` - move or rename files
+
+__Moving:__ ``mv file1 folder/`` - moves "file1" to directory "folder"
+
+* The **"/" at the end of the destination is important** to identifying a directory - otherwise **YOU WILL RENAME THE FILE IF YOU DON'T PUT USE IT**
+* You can move multiple files at a time
+
+__Renaming:__ ``mv file1 file2`` - renames "file1" to "file2"
+* You can rename both files AND directories this way
+
+---
+
+``man [command]`` - pulls up the user manual of the specified command
+
+* Press 'q' to exit the page that ``man`` pulls up
+* Use ``man`` to gain a deeper understanding of commands! 

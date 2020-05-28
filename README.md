@@ -1,7 +1,23 @@
 # Cheatsheet-Alpha
+
 Two Heads One Cheatsheet
 
 ---
+# Important things to remember:
+
+``~`` means "home," as in the home of the current user you are in.
+* Path: /users/Username
+
+``..`` means parent directory, aka the directory above the current one
+
+---
+
+# Commands:
+
+
+``cd [directory]`` - change directory , is used to navigate to another folder from your PC. CD lets you go to a specific folder.
+
+__Example:__ ``cd [directory]`` - will change current directory to folder named "folder_name"
 
 Special characters: 
 
@@ -9,37 +25,6 @@ Special characters:
 * ``cd ..`` - change to parent directory
 
 ** Both ``~`` and ``..`` can be used in other commands
-
----
-
-``cd`` - change directory , is used to navigate to another folder from your PC. CD lets you go to a specific folder.
-
-__Example:__ ``cd [directory]`` - will change current directory to folder named "folder_name"
-
----
-
-``pwd`` - print working directory , shows the current working directory. It prints the path of the working directory, starting from the root.
-
----
-
-``mkdir`` - make directory , allows you to make a new directory. This command can create multiple directories at once.
-
-__Example:__ ``mkdir new_folder`` - makes a new directory with name "new_folder" in current directory
-* By specifying a path before the directory name, you change the destination of the new directory
-    * __Example:__ ``mkdir new_folder /other folder`` - creates the directory in the child directory "other folder"
-
----
-
-``rm [file] [path]`` - remove (files) - rf , is used to remove objects such as files, directories, symbolic links and so on from the file system. You should be very careful while running rm command because once you delete the files then you are not able to recover the contents of files and directories.
-
-__Example:__ ``rm file1`` will delete the file "file1"
-
----
-
-``touch [file] [path]`` - create a file , is used to create new empty files.
-
-__Example:__ ``touch file1 `` will create a file named "file1" in the current directory
-
 
 ---
 
@@ -70,6 +55,21 @@ Special characters:
 
 ---
 
+``man [command]`` - pulls up the user manual of the specified command
+
+* Press 'q' to exit the page that ``man`` pulls up
+* Use ``man`` to gain a deeper understanding of commands! 
+
+---
+
+``mkdir [directory] [destination]`` - make directory , allows you to make a new directory. This command can create multiple directories at once.
+
+__Example:__ ``mkdir new_folder`` - makes a new directory with name "new_folder" in current directory
+* By specifying a path before the directory name, you change the destination of the new directory
+    * __Example:__ ``mkdir new_folder /other folder`` - creates the directory in the child directory "other folder"
+
+---
+
 ``mv [file] [destination]/`` - move or rename files
 
 __Moving:__ ``mv file1 folder/`` - moves "file1" to directory "folder"
@@ -82,7 +82,20 @@ __Renaming:__ ``mv file1 file2`` - renames "file1" to "file2"
 
 ---
 
-``man [command]`` - pulls up the user manual of the specified command
+``pwd`` - print working directory , shows the current working directory. It prints the path of the working directory, starting from the root.
 
-* Press 'q' to exit the page that ``man`` pulls up
-* Use ``man`` to gain a deeper understanding of commands! 
+---
+
+``rm [file] [path]`` - remove (files) - rf , is used to remove objects such as files, directories, symbolic links and so on from the file system. You should be very careful while running rm command because once you delete the files then you are not able to recover the contents of files and directories.
+
+__Example:__ ``rm file1`` will delete the file "file1"
+
+---
+
+``touch [file] [path]`` - create a file , is used to create new empty files.
+
+__Example:__ ``touch file1 `` will create a file named "file1" in the current directory
+* Like other commands, you can specify the directory where it is created
+  * ``touch file1 folder2/`` will create "file1" in the directory "folder2"
+
+

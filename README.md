@@ -9,6 +9,8 @@ Mkdir - make directory , allows you to make a new directory. This command can cr
 
 Rm - remove (files) - rf , is used to remove objects such as files, directories, symbolic links and so on from the file system. You should be very careful while running rm command because once you delete the files then you are not able to recover the contents of files and directories.
 
+Touch - create a file , is used to create new empty files. It is also used to change the timestamps ( dates and times ).
+
 ``cp [file] [destination]`` - copies file to another destination
 
 __Example:__ ``cp file1 folder2`` will copy "file1" to directory named folder2
